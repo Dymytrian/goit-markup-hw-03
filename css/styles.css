@@ -1,0 +1,226 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --primary-title-bacground-color:#2F303A;
+    --button-background-colour:#F5F4FA;
+    --footer-adress-phone-mail-color:#ffffff99;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color) ;
+
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+
+}
+
+/* Logo */
+.logo-header-footer {
+    text-decoration:none ;
+}
+
+.logo-header-footer .web {
+    color: var(--accent-color);
+    
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+}
+
+.logo-header-footer .web:hover,
+.logo-header-footer .web:focus {
+    color: var(--title-text-color) ;
+}
+
+.logo-header-footer .studio {
+    color: var(--title-text-color);
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-header-footer .studio:hover,
+.logo-header-footer .studio:focus {
+    color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.curent {
+    color: var(--accent-color);
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link.curent:hover,
+.site-nav .link.curent:focus {
+    color: var(--title-text-color);
+}
+
+.connection .contact {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.connection .contact:hover,
+.connection .contact:focus {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* Hero */ 
+
+.hero-title {
+    color: var(--primary-white-color);
+    background-color: var(--primary-title-bacground-color);
+    
+    font-weight: 900;
+    font-size: 44px;
+    text-transform: uppercase;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.button-primary {
+    cursor: pointer;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+    color: var(--title-text-color);
+    background: var(--button-background-colour);
+}
+
+.section-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Features и Examples */  /*Осообливості роботи */ /*Чим ми займаємся?*/
+
+.features-list .title,
+.work-list {
+    color: var(--title-text-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    
+    line-height: 1.14;
+}
+ 
+ /*Наша команда*/
+
+ .team-list .title {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-list .job-title {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/*Футер*/
+
+.address-list .contact {
+    color: var(--footer-adress-phone-mail-color);
+    background-color: var(--primary-title-bacground-color);
+
+    font-style: normal;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.address-list .contact.geo {
+    color: var(--primary-white-color);
+    background-color: var(--primary-title-bacground-color);
+    
+    font-style: normal;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.address-list .contact:hover,
+.address-list .contact:focus {
+    color: var(--accent-color);
+}
+
+/*portfolio*/
+
+.button-portfolio {
+    cursor: pointer;
+    color: var(--title-text-color);
+    background-color: var(--button-background-colour);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    color: var(--primary-white-color);
+    background: var(--accent-color);
+}
+
+.products-list .title {
+    color: var(--title-text-color);
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+}
+
+.products-list .products-type {
+    font-size: 16px;
+    line-height: 1.88;
+}
